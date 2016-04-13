@@ -10,11 +10,13 @@ Tips are added frequently (read further if you want to stay in touch).
 ### Can you help us enrich it?
 Sure, you can help the project in two ways, sending your tip or reviewing future tips.
 Any improvements or suggestions are more than welcome!
-[Instructions are here]().
+[Instructions are here](https://github.com/richzw/pytips/blob/master/CONTRIBUTING.md).
 
 ### Let’s keep in touch
 
 # Tips list
+
+
 
 ### License
 [GNU GENERAL PUBLIC LICENSE](https://github.com/richzw/pytips/blob/master/LICENSE.md)
