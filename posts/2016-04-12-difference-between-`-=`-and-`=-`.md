@@ -26,7 +26,7 @@ print a     # [1 1 2]
 print b     # [1 1 1] 
 ```
 
-### Answer
+### Answer:
 
 Mutating arrays while they're being used in computations can lead to unexpected results!
 
