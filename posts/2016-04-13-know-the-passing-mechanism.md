@@ -5,7 +5,7 @@ title: know the passing mechanism
 tip-number: 01
 tip-username: richzw
 tip-username-profile: https://github.com/richzw
-tip-tldr: Python function calling model is `call-by-reference` or `call-by-value`? The correct answer is: **Neither**, it is `call-by-object`
+tip-tldr: Python function parameter passing mechanism
 
 categories:
     - en
@@ -21,6 +21,12 @@ delight, but if you **rebind the reference** in the method, the outer scope will
 the outer reference will still point at the original object.
 
 - If you pass an **immutable object** to a method, you still **can't rebind** the outer reference, and you can't even _mutate_ the object.
+
+Diagram
+
+![](http://i.stack.imgur.com/hKDcu.png)
+
+Sample codes
 
 ```python
 # list - mutable type
