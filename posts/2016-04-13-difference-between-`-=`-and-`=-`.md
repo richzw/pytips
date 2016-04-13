@@ -1,5 +1,5 @@
 ---
-layout: *post
+layout: post
 
 title: difference between `-=` and `=-`
 tip-number: 00
