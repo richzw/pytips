@@ -18,7 +18,8 @@ Any improvements or suggestions are more than welcome!
 
 - 00 - [Differnce between `-=` and `=-`](https://github.com/richzw/pytips/blob/master/posts/2016-04-12-difference-between-%60-=%60-and-%60=-%60.md)
 - 01 - [Know the passing mechanism](https://github.com/richzw/pytips/blob/master/posts/2016-04-13-know-the-passing-mechanism.md)
-- 02 = [Random select number from top N](https://github.com/richzw/pytips/blob/master/posts/2016-04-14-random-select-number-from-top-n.md)
+- 02 - [Random select number from top N](https://github.com/richzw/pytips/blob/master/posts/2016-04-14-random-select-number-from-top-n.md)
+- 03 - [Type comparison](https://github.com/richzw/pytips/blob/master/posts/2016-04-15-type-comparison.md)
 
 ### License
 [GNU GENERAL PUBLIC LICENSE](https://github.com/richzw/pytips/blob/master/LICENSE.md)
