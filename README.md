@@ -21,7 +21,7 @@ Any improvements or suggestions are more than welcome!
 - 02 - [Random select number from top N](https://github.com/richzw/pytips/blob/master/posts/2016-04-14-random-select-number-from-top-n.md)
 - 03 - [Type comparison](https://github.com/richzw/pytips/blob/master/posts/2016-04-15-type-comparison.md)
 - 04 - [Get values of same key in two dictionaries](https://github.com/richzw/pytips/blob/master/posts/2016-04-16-get-values-of-same-key-in-two-dictioinaries.md)
-- 
+
 
 ### License
 [GNU GENERAL PUBLIC LICENSE](https://github.com/richzw/pytips/blob/master/LICENSE.md)
