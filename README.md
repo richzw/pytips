@@ -22,6 +22,7 @@ Any improvements or suggestions are more than welcome!
 - 03 - [Type comparison](https://github.com/richzw/pytips/blob/master/posts/2016-04-15-type-comparison.md)
 - 04 - [Get values of same key in two dictionaries](https://github.com/richzw/pytips/blob/master/posts/2016-04-16-get-values-of-same-key-in-two-dictioinaries.md)
 - 05 - [Default function arguments](https://github.com/richzw/pytips/blob/master/posts/2016-04-17-default-function-arguments.md)
+- 06 - [Interleave one list](https://github.com/richzw/pytips/blob/master/posts/2016-04-18-interleave-one-list.md)
 
 ### License
 [GNU GENERAL PUBLIC LICENSE](https://github.com/richzw/pytips/blob/master/LICENSE.md)
