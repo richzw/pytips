@@ -24,6 +24,7 @@ Any improvements or suggestions are more than welcome!
 - 05 - [Default function arguments](https://github.com/richzw/pytips/blob/master/posts/2016-04-17-default-function-arguments.md)
 - 06 - [Interleave one list](https://github.com/richzw/pytips/blob/master/posts/2016-04-18-interleave-one-list.md)
 - 07 - [Get number from front of string](https://github.com/richzw/pytips/blob/master/posts/2016-04-19-get-number-from-front-of-string.md)
+- 08 - [@staticmethod vs @classmethod](https://github.com/richzw/pytips/blob/master/posts/2016-04-20-staticmethod-vs-classmethod.md)
 
 ### License
 [GNU GENERAL PUBLIC LICENSE](https://github.com/richzw/pytips/blob/master/LICENSE.md)
