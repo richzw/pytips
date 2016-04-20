@@ -2,7 +2,7 @@
 layout: post
 
 title: staticmethod vs classmethod
-tip-number: 05
+tip-number: 08
 tip-username: richzw
 tip-username-profile: https://github.com/richzw
 tip-tldr: the difference between staticmethod and classmethod
