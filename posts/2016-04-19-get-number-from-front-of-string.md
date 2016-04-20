@@ -2,7 +2,7 @@
 layout: post
 
 title: get number from front of string
-tip-number: 05
+tip-number: 07
 tip-username: richzw
 tip-username-profile: https://github.com/richzw
 tip-tldr: pythonic way to retrieve number from front of string
