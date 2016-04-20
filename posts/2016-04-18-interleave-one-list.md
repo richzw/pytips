@@ -2,7 +2,7 @@
 layout: post
 
 title: interleave one list
-tip-number: 05
+tip-number: 06
 tip-username: richzw
 tip-username-profile: https://github.com/richzw
 tip-tldr: pythonic way to interleave one list
