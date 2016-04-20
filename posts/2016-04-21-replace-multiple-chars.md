@@ -2,7 +2,7 @@
 layout: post
 
 title: replace multiple chars
-tip-number: 05
+tip-number: 09
 tip-username: richzw
 tip-username-profile: https://github.com/richzw
 tip-tldr: pythonic way to replace multiple chars
