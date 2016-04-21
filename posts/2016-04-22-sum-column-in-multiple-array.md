@@ -2,7 +2,7 @@
 layout: post
 
 title: sum column in multiple array
-tip-number: 09
+tip-number: 10
 tip-username: richzw
 tip-username-profile: https://github.com/richzw
 tip-tldr: pythonic way to sum column in multiple array
