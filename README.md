@@ -26,6 +26,8 @@ Any improvements or suggestions are more than welcome!
 - 07 - [Get number from front of string](https://github.com/richzw/pytips/blob/master/posts/2016-04-19-get-number-from-front-of-string.md)
 - 08 - [@staticmethod vs @classmethod](https://github.com/richzw/pytips/blob/master/posts/2016-04-20-staticmethod-vs-classmethod.md)
 - 09 - [Replace multiple chars](https://github.com/richzw/pytips/blob/master/posts/2016-04-21-replace-multiple-chars.md)
+- 10 - [Sum column in multiple array](https://github.com/richzw/pytips/blob/master/posts/2016-04-22-sum-column-in-multiple-array.md)
+
 
 ### License
 [GNU GENERAL PUBLIC LICENSE](https://github.com/richzw/pytips/blob/master/LICENSE.md)
