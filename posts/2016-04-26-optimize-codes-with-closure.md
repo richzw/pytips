@@ -88,3 +88,6 @@ def make_page_category_filter(config):
     return page_category_filter
 ```
 
+### Source:
+
+[A](http://tech.magnetic.com/2015/05/optimize-python-with-closures.html)
