@@ -29,6 +29,7 @@ Any improvements or suggestions are more than welcome!
 - 10 - [Sum column in multiple array](https://github.com/richzw/pytips/blob/master/posts/2016-04-22-sum-column-in-multiple-array.md)
 - 11 - [Remove duplicate in set array](https://github.com/richzw/pytips/blob/master/posts/2016-04-23-remove-duplicate-in-set-array.md)
 - 12 - [Mesh two strings](https://github.com/richzw/pytips/blob/master/posts/2016-04-24-mesh-two-strings.md)
+- 13 - [Demystify descriptor](https://github.com/richzw/pytips/blob/master/posts/2016-04-25-demystify-descriptor.md)
 
 ### License
 [GNU GENERAL PUBLIC LICENSE](https://github.com/richzw/pytips/blob/master/LICENSE.md)
