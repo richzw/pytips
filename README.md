@@ -31,6 +31,7 @@ Any improvements or suggestions are more than welcome!
 - 12 - [Mesh two strings](https://github.com/richzw/pytips/blob/master/posts/2016-04-24-mesh-two-strings.md)
 - 13 - [Demystify descriptor](https://github.com/richzw/pytips/blob/master/posts/2016-04-25-demystify-descriptor.md)
 - 14 - [Optimize codes with closure](https://github.com/richzw/pytips/blob/master/posts/2016-04-26-optimize-codes-with-closure.md)
+- 15 - [Python const](https://github.com/richzw/pytips/blob/master/posts/2016-04-27-python-const.md)
 
 ### License
 [GNU GENERAL PUBLIC LICENSE](https://github.com/richzw/pytips/blob/master/LICENSE.md)
