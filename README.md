@@ -32,6 +32,7 @@ Any improvements or suggestions are more than welcome!
 - 13 - [Demystify descriptor](https://github.com/richzw/pytips/blob/master/posts/2016-04-25-demystify-descriptor.md)
 - 14 - [Optimize codes with closure](https://github.com/richzw/pytips/blob/master/posts/2016-04-26-optimize-codes-with-closure.md)
 - 15 - [Python const](https://github.com/richzw/pytips/blob/master/posts/2016-04-27-python-const.md)
+- 16 - [Late binding closure](https://github.com/richzw/pytips/blob/master/posts/2016-04-28-late-binding-closure.md)
 
 ### License
 [GNU GENERAL PUBLIC LICENSE](https://github.com/richzw/pytips/blob/master/LICENSE.md)
