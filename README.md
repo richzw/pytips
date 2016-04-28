@@ -33,6 +33,7 @@ Any improvements or suggestions are more than welcome!
 - 14 - [Optimize codes with closure](https://github.com/richzw/pytips/blob/master/posts/2016-04-26-optimize-codes-with-closure.md)
 - 15 - [Python const](https://github.com/richzw/pytips/blob/master/posts/2016-04-27-python-const.md)
 - 16 - [Late binding closure](https://github.com/richzw/pytips/blob/master/posts/2016-04-28-late-binding-closure.md)
+- 17 - [Difference between is and ==](https://github.com/richzw/pytips/blob/master/posts/2016-04-29-difference-between-%60is%60-and-%60%3D%3D%60.md)
 
 ### License
 [GNU GENERAL PUBLIC LICENSE](https://github.com/richzw/pytips/blob/master/LICENSE.md)
