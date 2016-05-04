@@ -2,7 +2,7 @@
 layout: post
 
 title: pairewise circular in list values
-tip-number: 16
+tip-number: 17
 tip-username: richzw
 tip-username-profile: https://github.com/richzw
 tip-tldr: pythonic way to pairwise circular in list values
