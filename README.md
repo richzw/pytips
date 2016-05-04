@@ -35,6 +35,7 @@ Any improvements or suggestions are more than welcome!
 - 16 - [Late binding closure](https://github.com/richzw/pytips/blob/master/posts/2016-04-28-late-binding-closure.md)
 - 17 - [Difference between is and ==](https://github.com/richzw/pytips/blob/master/posts/2016-04-29-difference-between-%60is%60-and-%60%3D%3D%60.md)
 - 18 - [Pairewise circular](https://github.com/richzw/pytips/blob/master/posts/2016-04-30-pairewise-circular.md)
+- 19 - [Memoization and decoration](https://github.com/richzw/pytips/blob/master/posts/2016-05-04-memoization-and-decoration.md)
 
 ### License
 [GNU GENERAL PUBLIC LICENSE](https://github.com/richzw/pytips/blob/master/LICENSE.md)
