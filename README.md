@@ -37,6 +37,7 @@ Any improvements or suggestions are more than welcome!
 - 18 - [Pairewise circular](https://github.com/richzw/pytips/blob/master/posts/2016-04-30-pairewise-circular.md)
 - 19 - [Memoization and decoration](https://github.com/richzw/pytips/blob/master/posts/2016-05-04-memoization-and-decoration.md)
 - 20 - [Class attribute](https://github.com/richzw/pytips/blob/master/posts/2016-05-05-class-attribute.md)
+- 21 - [Exception trackback](https://github.com/richzw/pytips/blob/master/posts/2016-05-06-exception-traceback.md)
 
 ### License
 [GNU GENERAL PUBLIC LICENSE](https://github.com/richzw/pytips/blob/master/LICENSE.md)
