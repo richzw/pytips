@@ -39,6 +39,8 @@ Any improvements or suggestions are more than welcome!
 - 20 - [Class attribute](https://github.com/richzw/pytips/blob/master/posts/2016-05-05-class-attribute.md)
 - 21 - [Exception trackback](https://github.com/richzw/pytips/blob/master/posts/2016-05-06-exception-traceback.md)
 - 22 - [Iteration vs Iterator vs Iterable](https://github.com/richzw/pytips/blob/master/posts/2016-05-10-iteration-iterator-iterable.md)
+- 23 - [Empty string](https://github.com/richzw/pytips/blob/master/posts/2016-05-16-empty-string.md)
+
 
 ### License
 [GNU GENERAL PUBLIC LICENSE](https://github.com/richzw/pytips/blob/master/LICENSE.md)
