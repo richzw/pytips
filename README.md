@@ -40,6 +40,7 @@ Any improvements or suggestions are more than welcome!
 - 21 - [Exception trackback](https://github.com/richzw/pytips/blob/master/posts/2016-05-06-exception-traceback.md)
 - 22 - [Iteration vs Iterator vs Iterable](https://github.com/richzw/pytips/blob/master/posts/2016-05-10-iteration-iterator-iterable.md)
 - 23 - [Empty string](https://github.com/richzw/pytips/blob/master/posts/2016-05-16-empty-string.md)
+- 24 - [String Concatenation](https://github.com/richzw/pytips/blob/master/posts/2016-05-17-string-concatenation.md)
 
 
 ### License
