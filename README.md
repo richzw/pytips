@@ -41,6 +41,7 @@ Any improvements or suggestions are more than welcome!
 - 22 - [Iteration vs Iterator vs Iterable](https://github.com/richzw/pytips/blob/master/posts/2016-05-10-iteration-iterator-iterable.md)
 - 23 - [Empty string](https://github.com/richzw/pytips/blob/master/posts/2016-05-16-empty-string.md)
 - 24 - [String Concatenation](https://github.com/richzw/pytips/blob/master/posts/2016-05-17-string-concatenation.md)
+- 25 - [Merge two lists with given order](https://github.com/richzw/pytips/blob/master/posts/2016-05-18-merge-two-lists-with-given-order.md)
 
 
 ### License
