@@ -45,6 +45,7 @@ Any improvements or suggestions are more than welcome!
 - 26 - [List deduction](https://github.com/richzw/pytips/blob/master/posts/2016-05-19-list-deduction.md)
 - 27 - [Convert list value to index](https://github.com/richzw/pytips/blob/master/posts/2016-05-20-convert-list-value-to-index.md)
 - 28 - [Tail comma](https://github.com/richzw/pytips/blob/master/posts/2016-05-21-tail-comma.md)
+- 29 - [Dictionary implementation](https://github.com/richzw/pytips/blob/master/posts/2016-05-23-dictionary-implementation.md)
 
 
 ### License
