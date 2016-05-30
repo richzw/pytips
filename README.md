@@ -47,6 +47,7 @@ Any improvements or suggestions are more than welcome!
 - 28 - [Tail comma](https://github.com/richzw/pytips/blob/master/posts/2016-05-21-tail-comma.md)
 - 29 - [Dictionary implementation](https://github.com/richzw/pytips/blob/master/posts/2016-05-23-dictionary-implementation.md)
 - 30 - [Scope rule](https://github.com/richzw/pytips/blob/master/posts/2016-05-25-scope-rule.md)
+- 31 - [Statement vs expression](https://github.com/richzw/pytips/blob/master/posts/2016-05-30-statement-vs-expression.md)
 
 
 ### License
