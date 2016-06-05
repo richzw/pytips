@@ -50,6 +50,7 @@ Any improvements or suggestions are more than welcome!
 - 31 - [Statement vs expression](https://github.com/richzw/pytips/blob/master/posts/2016-05-30-statement-vs-expression.md)
 - 32 - [init vs new](https://github.com/richzw/pytips/blob/master/posts/2016-05-31-init-vs-new.md)
 - 33 - [super](https://github.com/richzw/pytips/blob/master/posts/2016-06-01-super.md)
+- 34 - [hash(n) == n](https://github.com/richzw/pytips/blob/master/posts/2016-06-05-hash(n)-%3D%3D-n.md)
 
 
 ### License
