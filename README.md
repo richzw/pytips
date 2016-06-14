@@ -52,6 +52,7 @@ Any improvements or suggestions are more than welcome!
 - 33 - [super](https://github.com/richzw/pytips/blob/master/posts/2016-06-01-super.md)
 - 34 - [hash(n) == n](https://github.com/richzw/pytips/blob/master/posts/2016-06-05-hash(n)-%3D%3D-n.md)
 - 35 - [args vs kwargs](https://github.com/richzw/pytips/blob/master/posts/2016-06-13-args-vs-kwargs.md)
+- 36 - [Collection tips](https://github.com/richzw/pytips/blob/master/posts/2016-06-14-collection-tips.md)
 
 
 ### License
