@@ -2,7 +2,7 @@
 layout: post
 
 title: variable iterator
-tip-number: 34
+tip-number: 35
 tip-username: richzw
 tip-username-profile: https://github.com/richzw
 tip-tldr: pythonic way to do variable iterator
