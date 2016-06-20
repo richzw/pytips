@@ -54,6 +54,7 @@ Any improvements or suggestions are more than welcome!
 - 35 - [args vs kwargs](https://github.com/richzw/pytips/blob/master/posts/2016-06-13-args-vs-kwargs.md)
 - 36 - [Collection tips](https://github.com/richzw/pytips/blob/master/posts/2016-06-14-collection-tips.md)
 - 37 - [Variable iterator](https://github.com/richzw/pytips/blob/master/posts/2016-06-16-variable-iterator.md)
+- 38 - [N largest elements](https://github.com/richzw/pytips/blob/master/posts/2016-06-20-N-largest.md)
 
 
 ### License
