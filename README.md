@@ -55,6 +55,7 @@ Any improvements or suggestions are more than welcome!
 - 36 - [Collection tips](https://github.com/richzw/pytips/blob/master/posts/2016-06-14-collection-tips.md)
 - 37 - [Variable iterator](https://github.com/richzw/pytips/blob/master/posts/2016-06-16-variable-iterator.md)
 - 38 - [N largest elements](https://github.com/richzw/pytips/blob/master/posts/2016-06-20-N-largest.md)
+- 39 - [Split a string](https://github.com/richzw/pytips/blob/master/posts/2016-07-03-split-a-string.md)
 
 
 ### License
