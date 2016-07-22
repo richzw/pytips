@@ -58,6 +58,7 @@ Any improvements or suggestions are more than welcome!
 - 39 - [Split a string](https://github.com/richzw/pytips/blob/master/posts/2016-07-03-split-a-string.md)
 - 40 - [Variable id](https://github.com/richzw/pytips/blob/master/posts/2016-07-05-variable-id.md)
 - 41 - [Lambda in list comprehension](https://github.com/richzw/pytips/blob/master/posts/2016-07-15-lambda-in-list-comprehension.md)
+- 42 - [Hashable function](https://github.com/richzw/pytips/blob/master/posts/2016-07-23-hashable-function.md)
 
 
 ### License
