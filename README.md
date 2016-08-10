@@ -60,6 +60,7 @@ Any improvements or suggestions are more than welcome!
 - 41 - [Lambda in list comprehension](https://github.com/richzw/pytips/blob/master/posts/2016-07-15-lambda-in-list-comprehension.md)
 - 42 - [Hashable function](https://github.com/richzw/pytips/blob/master/posts/2016-07-23-hashable-function.md)
 - 43 - [Floor divesion vs floor of divisioni](https://github.com/richzw/pytips/blob/master/posts/2016-07-27-floor-division-vs-floor-of-division.md)
+- 44 - [Split List to Uneven Group](https://github.com/richzw/pytips/blob/master/posts/2016-08-10-Split-list-to-uneven-group.md)
 
 
 ### License
