@@ -63,6 +63,7 @@ Any improvements or suggestions are more than welcome!
 - 44 - [Split List to Uneven Group](https://github.com/richzw/pytips/blob/master/posts/2016-08-10-Split-list-to-uneven-group.md)
 - 45 - [Update list in tuple](https://github.com/richzw/pytips/blob/master/posts/2016-08-22-update-list-in-tuple.md)
 - 46 - [Swap elements in list](https://github.com/richzw/pytips/blob/master/posts/2016-08-28-swap-element-in-list.md)
+- 47 - [Recursive function](https://github.com/richzw/pytips/blob/master/posts/2016-09-17-recursive-function.md)
 
 
 ### License
