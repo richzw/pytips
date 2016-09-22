@@ -65,6 +65,7 @@ Any improvements or suggestions are more than welcome!
 - 46 - [Swap elements in list](https://github.com/richzw/pytips/blob/master/posts/2016-08-28-swap-element-in-list.md)
 - 47 - [Recursive function](https://github.com/richzw/pytips/blob/master/posts/2016-09-17-recursive-function.md)
 - 48 - [Remove elements from list conditionly](https://github.com/richzw/pytips/blob/master/posts/2016-09-20-remove-element-from-list-conditionly.md)
+- 49 - [Floating Number](https://github.com/richzw/pytips/blob/master/posts/2016-09-22-floating-number.md)
 
 
 ### License
