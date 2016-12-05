@@ -68,7 +68,7 @@ Any improvements or suggestions are more than welcome!
 - 49 - [Floating Number](https://github.com/richzw/pytips/blob/master/posts/2016-09-22-floating-number.md)
 - 50 - [Dict in py3.6](https://github.com/richzw/pytips/blob/master/posts/2016-10-12-Dict-in-py3.6.md)
 - 51 - [Sort array with negative number](https://github.com/richzw/pytips/blob/master/posts/2016-11-16-Sort-array-with-negative-number.md)
-
+- 52 - [Long function name](https://github.com/richzw/pytips/blob/master/posts/2016-12-05-Long-function-name.md)
 
 ### License
 [GNU GENERAL PUBLIC LICENSE](https://github.com/richzw/pytips/blob/master/LICENSE.md)
