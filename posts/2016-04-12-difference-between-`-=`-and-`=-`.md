@@ -47,3 +47,34 @@ Here is what happens with `a[1:] -= a[:-1]` step by step:
 
 However, `b[1:] = b[1:] - b[:-1]` does not have this problem because `b[1:] - b[:-1]` creates a new array first and then assigns the values
 in this array to `b[1:]`. It does not modify `b` itself during the subtraction, so the views `b[1:]` and `b[:-1]` do not change.
+
+### similar issue
+
+```python
+import numpy as np
+
+A = np.arange(12).reshape(4,3)
+for a in A:
+    a = a + 1
+
+B = np.arange(12).reshape(4,3)
+for b in B:
+    b += 1
+```
+
+After running each for loop, `A` has not changed, but `B` has had one added to each element. I actually use the `B` version to write to a initialized NumPy array within `a` for loop.
+
+### Answer
+
+The difference is that one modifies the data-structure itself (in-place operation) b += 1 while the other just reassigns the variable a = a + 1.
+
+Just for completeness:
+
+x += y is not always doing an in-place operation, there are (at least) three exceptions:
+
+If x doesn't implement an __iadd__ method then the x += y statement is just a shorthand for x = x + y. This would be the case if x was something like an int.
+If __iadd__ returns NotImplemented, Python falls back to x = x + y.
+The __iadd__ method could theoretically be implemented to not work in place. It'd be really weird to do that, though.
+As it happens your bs are numpy.ndarrays which implements __iadd__ and return itself so your second loop modifies the original array in-place.
+
+
