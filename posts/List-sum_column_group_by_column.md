@@ -26,7 +26,7 @@ This is an O(n) solution via collections.Counter, adaptable to any number of key
 
 If your desired output is a list, then this may be preferable to a solution via pandas, which is generally O(n log n).
 
-```
+```python
 from collections import Counter
 
 lst = [['Andrew', '1', '9'], ['Peter', '1', '10'], ['Andrew', '1', '8'],
@@ -51,16 +51,17 @@ Result
 
 Create to DataFrame and aggregate third column converted to integers by first and second columns, last convert back to lists:
 
-```
+```python
 df = pd.DataFrame(L)
 L = df[2].astype(int).groupby([df[0], df[1]]).sum().reset_index().values.tolist()
+
 print (L)
 [['Andrew', '1', 17], ['Andrew', '2', 2], ['Peter', '1', 21], ['Sam', '4', 9]]
 ```
 
 And solution with defaultdict, python 3.x only:
 
-```
+```python
 from collections import defaultdict
 
 d = defaultdict(int)
@@ -73,7 +74,7 @@ print (d)
 [['Andrew', '1', 17], ['Andrew', '2', 2], ['Peter', '1', 21], ['Sam', '4', 9]]
 ```
 
-```
+```python
 from itertools import groupby
 [k+[sum(int(v) for _,_, v in g)] for k, g in groupby(sorted(l), key = lambda x: [x[0],x[1]])]
 
