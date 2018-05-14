@@ -1,0 +1,95 @@
+###
+Question
+
+Suppose I have a list:
+
+```
+l=['a','b','c']
+```
+
+I'd like the desired output to be:
+
+```
+out_l = ['a','a_1','b','b_2','c','c_3']
+```
+
+###
+Solution
+
+```python
+You can use a generator for an elegant solution. At each iteration, yield twice—once with the original element, and once with the element with the added suffix.
+
+The generator will need to be exhausted; that can be done by tacking on a list call at the end.
+
+def transform(l):
+    for i, x in enumerate(l, 1):
+        yield x
+        yield f'{x}_{i}'  # {}_{}'.format(x, i)
+You can also re-write this using the yield from syntax for generator delegation:
+
+def transform(l):
+    for i, x in enumerate(l, 1):
+        yield from (x, f'{x}_{i}') # (x, {}_{}'.format(x, i))
+out_l = list(transform(l))
+print(out_l)
+['a', 'a_1', 'b', 'b_2', 'c', 'c_3']
+```
+
+**Sliced list.__setitem__**
+
+I'd recommend this from the perspective of performance. First allocate space for an empty list, and then assign list items to their appropriate positions using sliced list assignment. l goes into even indexes, and l' (l modified) goes into odd indexes.
+
+```python
+out_l = [None] * (len(l) * 2)
+out_l[::2] = l
+out_l[1::2] = [f'{x}_{i}' for i, x in enumerate(l, 1)]  # [{}_{}'.format(x, i) ...]
+print(out_l)
+['a', 'a_1', 'b', 'b_2', 'c', 'c_3']
+```
+
+
+yieldyield
+You can use a generator for an elegant solution. At each iteration, yield twice—once with the original element, and once with the element with the added suffix.
+
+The generator will need to be exhausted; that can be done by tacking on a list call at the end.
+
+def transform(l):
+    for i, x in enumerate(l, 1):
+        yield x
+        yield f'{x}_{i}'  # {}_{}'.format(x, i)
+You can also re-write this using the yield from syntax for generator delegation:
+
+def transform(l):
+    for i, x in enumerate(l, 1):
+        yield from (x, f'{x}_{i}') # (x, {}_{}'.format(x, i))
+out_l = list(transform(l))
+print(out_l)
+['a', 'a_1', 'b', 'b_2', 'c', 'c_3']
+If you're on versions older than python-3.6, replace f'{x}_{i}' with '{}_{}'.format(x, i).
+
+Sliced list.__setitem__
+I'd recommend this from the perspective of performance. First allocate space for an empty list, and then assign list items to their appropriate positions using sliced list assignment. l goes into even indexes, and l' (l modified) goes into odd indexes.
+
+out_l = [None] * (len(l) * 2)
+out_l[::2] = l
+out_l[1::2] = [f'{x}_{i}' for i, x in enumerate(l, 1)]  # [{}_{}'.format(x, i) ...]
+print(out_l)
+['a', 'a_1', 'b', 'b_2', 'c', 'c_3']
+This is consistently the fastest from my timings (below).
+
+**zip + chain.from_iterable**
+
+A functional approach, similar to @chrisz' solution. Construct pairs using zip and then flatten it using itertools.chain.
+
+```
+from itertools import chain
+# [{}_{}'.format(x, i) ...]
+out_l = list(chain.from_iterable(zip(l, [f'{x}_{i}' for i, x in enumerate(l, 1)]))) 
+print(out_l)
+['a', 'a_1', 'b', 'b_2', 'c', 'c_3']
+```
+
+[Resource](https://stackoverflow.com/a/50312321/3011380)
+
+
+
