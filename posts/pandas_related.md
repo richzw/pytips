@@ -74,5 +74,46 @@ df[cols] = df[cols].apply(pd.to_numeric,errors='coerce')
 2          opE       4.0       3.0
 3          pxl       3.0       6.0
 4          ouP       NaN       4.0
-```
 5          qZR       4.0       6.0
+```
+
+Q: I want to increment the column "Expected output" only if "servo_in_position" changes from 0 to 1. I want also to assume "Expected output" to be 0 (null) if "servo_in_position" equals to 0.
+
+```
+ servo_in_position   second_servo_in_position    Expected output
+0   0   1   0
+1   0   1   0
+2   1   2   1
+3   0   3   0
+4   1   4   2
+5   1   4   2
+6   0   5   0
+7   0   5   0
+8   1   6   3
+9   0   7   0
+10  1   8   4
+11  0   9   0
+12  1   10  5
+13  1   10  5
+14  1   10  5
+15  0   11  0
+16  0   11  0
+17  0   11  0
+18  1   12  6
+19  1   12  6
+20  0   13  0
+21  0   13  0
+22  0   13  0
+```
+
+A1:
+
+```python
+df['E_output'] = df['servo_in_position'].diff().eq(1).cumsum()\
+                                        .mask(df['servo_in_position'] == 0, 0)
+```
+
+```python
+df.servo_in_position.diff().eq(1).cumsum().mul(df.servo_in_position.eq(1),axis=0)
+```
+
